@@ -11,4 +11,4 @@ Then, on the link:https://forum.golangbridge.org/t/windows-binary-installer-with
 Here is my complete procedure:
 
 . Go to https://golang.org/dl/[^] and *DON'T* download the Microsoft Windows installer package (.msi);
-. Download the latest *archive* file for Windows; I have used link:https://storage.googleapis.com/golang/go1.6.3.windows-amd64.zip[go1.6.3.windows-amd64.zip^] one;
+. Download the latest *archive* file for Windows; I have used link:https://storage.googleapis.com/golang/go1.6.3.windows-amd64.zip[go1.6.3.windows-amd64.zip] one;
