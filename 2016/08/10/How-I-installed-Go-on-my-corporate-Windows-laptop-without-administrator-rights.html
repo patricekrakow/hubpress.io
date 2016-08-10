@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>How I installed Go on my corporate Windows laptop without administrator rights</title>
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://patricekrakow.github.io/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="//patricekrakow.github.io/themes/casper/assets/css/screen.css?v=1470860483398" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+
+    <link rel="canonical" href="https://patricekrakow.github.io/2016/08/10/How-I-installed-Go-on-my-corporate-Windows-laptop-without-administrator-rights.html" />
+    <meta name="referrer" content="origin" />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="How I installed Go on my corporate Windows laptop without administrator rights" />
+    <meta property="og:description" content="I have started by going to https://golang.org/ ;-) There, I discovered the A Tour of Go which allows you to start learning the Go language without installing anything. Brilliant! Remark: The A Tour of Go is built on top of Go Playground, a web service that runs on" />
+    <meta property="og:url" content="https://patricekrakow.github.io/2016/08/10/How-I-installed-Go-on-my-corporate-Windows-laptop-without-administrator-rights.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="How I installed Go on my corporate Windows laptop without administrator rights" />
+    <meta name="twitter:description" content="I have started by going to https://golang.org/ ;-) There, I discovered the A Tour of Go which allows you to start learning the Go language without installing anything. Brilliant! Remark: The A Tour of Go is built on top of Go Playground, a web service that runs on" />
+    <meta name="twitter:url" content="https://patricekrakow.github.io/2016/08/10/How-I-installed-Go-on-my-corporate-Windows-laptop-without-administrator-rights.html" />
+    
+    <script type="application/ld+json">
+null
+    </script>
+
+    <meta name="generator" content="HubPress" />
+    <link rel="alternate" type="application/rss+xml" title="" href="https://patricekrakow.github.io/rss/" />
+</head>
+<body class="post-template nav-closed">
+
+    
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post">
+
+        <header class="post-header">
+            <h1 class="post-title">How I installed Go on my corporate Windows laptop without administrator rights</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2016-08-10">10 August 2016</time> 
+            </section>
+        </header>
+
+        <section class="post-content">
+            <div class="paragraph">
+<p>I have started by going to <a href="https://golang.org/" class="bare" target="_blank">https://golang.org/</a> ;-)</p>
+</div>
+<div class="paragraph">
+<p>There, I discovered the <a href="https://tour.golang.org/welcome/1" target="_blank"><em>A Tour of Go</em></a> which allows you to start learning the Go language without installing <strong>anything</strong>. Brilliant!</p>
+</div>
+<div class="paragraph">
+<p><u><strong><em>Remark:</em></strong></u> The <em>A Tour of Go</em> is built on top of <a href="https://play.golang.org/" target="_blank"><em>Go Playground</em></a>, a web service that runs on golang.org&#8217;s servers. The service receives a Go program, compiles, links, and runs the program inside a sandbox, then returns the output. You can also use this service to share your single source file Go program in a <strong>demo-able</strong> mode; try <a href="https://play.golang.org/p/EtWwP9G5Sb" target="_blank">this</a>! I have here discover the idea of having test sandbox giving deterministic output, even when using date-time ;-)</p>
+</div>
+<div class="paragraph">
+<p>Then, on the <a href="https://forum.golangbridge.org/t/windows-binary-installer-without-administrator-rights/2345" target="_blank">Go Forum</a>, I directly got the confimation that using the Microsoft Windows installer package (.msi) will not work without administrtor rights :-/ But, thanks to <a href="http://www.mickesommar.com/" target="_blank">Micke Sommar</a>, I also got the confirmation that it is possible to install Go without administrator rights ;-)</p>
+</div>
+<div class="paragraph">
+<p>Here is my complete procedure:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Go to <a href="https://golang.org/dl/" class="bare" target="_blank">https://golang.org/dl/</a> and <strong>DON&#8217;T</strong> download the Microsoft Windows installer package (.msi);</p>
+</li>
+<li>
+<p>Download the latest <strong>archive</strong> file for Windows; I have used <a href="https://storage.googleapis.com/golang/go1.6.3.windows-amd64.zip" target="_blank">go1.6.3.windows-amd64.zip</a> one;</p>
+</li>
+</ol>
+</div>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="https://patricekrakow.github.io/author/patricekrakow/" style="background-image: url(https://avatars.githubusercontent.com/u/12017232?v&#x3D;3)"><span class="hidden">patricekrakow's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="https://patricekrakow.github.io/author/patricekrakow/">patricekrakow</a></h4>
+
+                    <p>Read <a href="https://patricekrakow.github.io/author/patricekrakow/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=How%20I%20installed%20Go%20on%20my%20corporate%20Windows%20laptop%20without%20administrator%20rights&amp;url=https://patricekrakow.github.io/2016/08/10/How-I-installed-Go-on-my-corporate-Windows-laptop-without-administrator-rights.html"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://patricekrakow.github.io/2016/08/10/How-I-installed-Go-on-my-corporate-Windows-laptop-without-administrator-rights.html"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://patricekrakow.github.io/2016/08/10/How-I-installed-Go-on-my-corporate-Windows-laptop-without-administrator-rights.html"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+
+    </article>
+
+</main>
+
+<aside class="read-next">
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="https://patricekrakow.github.io"></a> &copy; 2016</section>
+            <section class="poweredby">Proudly published with <a href="http://hubpress.io">HubPress</a></section>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();
+      </script>
+
+    <script type="text/javascript" src="//patricekrakow.github.io/themes/casper/assets/js/jquery.fitvids.js?v=1470860483398"></script>
+    <script type="text/javascript" src="//patricekrakow.github.io/themes/casper/assets/js/index.js?v=1470860483398"></script>
+
+</body>
+</html>
