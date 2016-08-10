@@ -20,3 +20,5 @@ C:\> set PATH=%PATH%;%GOROOT%\bin`
 C:\> set GOPATH=H:\My Documents\Work\156 - 2016-06-15 - Go\work
 C:\> set PATH=%PATH%;%GOPATH%\bin]
 
+Now, you can use Go as describe in the link:https://golang.org/doc/code.html[documentation^]! Have fun ;-)
+
