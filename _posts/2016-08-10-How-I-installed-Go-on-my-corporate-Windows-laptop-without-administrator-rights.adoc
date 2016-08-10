@@ -1,6 +1,6 @@
 = How I installed Go on my corporate Windows laptop without administrator rights
 
-I have started by going to https://golang.org/ ;-)
+I have started by going to link:https://golang.org/[^] ;-)
 
 There, I discovered the link:https://tour.golang.org/welcome/1[_A Tour of Go_^] which allows you to start learning the Go language without installing *anything*. Brilliant!
 
