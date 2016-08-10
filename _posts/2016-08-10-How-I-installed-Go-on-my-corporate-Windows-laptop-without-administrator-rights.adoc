@@ -6,4 +6,9 @@ There, I discovered the link:https://tour.golang.org/welcome/1[_A Tour of Go_^] 
 
 pass:q[<u>*_Remark:_*</u>] The _A Tour of Go_ is built on top of link:https://play.golang.org/[_Go Playground_^], a web service that runs on golang.org's servers. The service receives a Go program, compiles, links, and runs the program inside a sandbox, then returns the output. You can also use this service to share your single source file Go program in a *demo-able* mode; try link:https://play.golang.org/p/EtWwP9G5Sb[this^]! I have here discover the idea of having test sandbox giving deterministic output, even when using date-time ;-)
 
-Then, on the link:https://forum.golangbridge.org/t/windows-binary-installer-without-administrator-rights/2345[Go Forum^], I directly got the confimation that using the Windows installer package (.msi) will not work without administrtor rights :-/ But, thanks to link:http://www.mickesommar.com/[Micke Sommar^], I also got the confirmation that it is possible to install Go without administrator rights ;-)
+Then, on the link:https://forum.golangbridge.org/t/windows-binary-installer-without-administrator-rights/2345[Go Forum^], I directly got the confimation that using the Microsoft Windows installer package (.msi) will not work without administrtor rights :-/ But, thanks to link:http://www.mickesommar.com/[Micke Sommar^], I also got the confirmation that it is possible to install Go without administrator rights ;-)
+
+Here is my complete procedure:
+
+. Go to https://golang.org/dl/[^] and *DON'T* download the Microsoft Windows installer package (.msi)
+. Download the 
