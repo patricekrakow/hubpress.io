@@ -12,5 +12,11 @@ Here is my complete procedure:
 
 . Go to https://golang.org/dl/[^] and *DON'T* download the Microsoft Windows installer package (.msi);
 . Download the latest *archive* file for Windows; I have used the link:https://storage.googleapis.com/golang/go1.6.3.windows-amd64.zip[go1.6.3.windows-amd64.zip] one;
-. Then, I have unzip the content of this archive (which contains the folder `\go`) to my pass:q[`C:\Users\<i>username</i>\AppData\Local\Programs`], where pass:q[`<i>username</i>`] should be replaced by your own user name. Indeed, you just need to find a place on your `C:\` drive on which you can write, and that is not cleanup periodically by your administrator!
-. And, the final trick 
+. Then, I have unzip the content of this archive (which contains the folder `\go`) to my pass:q[`C:\Users\<i>username</i>\AppData\Local\Programs`], where pass:q[`<i>username</i>`] should be replaced by your own Windows user name. Indeed, you just need to find a place on your `C:\` drive on which you can write, and that is not cleanup periodically by your administrator!
+. Finally, you can start a Command Prompt and set the following environement variables:
+[listing]
+C:\> set GOROOT=C:\Users\username\AppData\Local\Programs\go
+C:\> set PATH=%PATH%;%GOROOT%\bin`
+C:\> set GOPATH=H:\My Documents\Work\156 - 2016-06-15 - Go\work
+C:\> set PATH=%PATH%;%GOPATH%\bin]
+
