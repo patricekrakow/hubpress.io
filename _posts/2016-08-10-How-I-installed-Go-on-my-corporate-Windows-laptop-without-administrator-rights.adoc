@@ -1,4 +1,4 @@
-= How I installed Go on my corporate Windows laptop without administtrator rights
+= How I installed Go on my corporate Windows laptop without administrator rights
 
 I have started by going to https://golang.org/ ;-)
 
