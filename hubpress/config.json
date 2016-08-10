@@ -4,7 +4,11 @@
     "repositoryName": "patricekrakow.github.io",
     "branch": "master"
   },
+  "site": {
+    "title": "Patrice.tech"
+  },
+  "socialnetwork": {},
   "theme": {
-    "name": "Casper"
+    "name": "casper"
   }
 }
