@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://patricekrakow.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 10 Aug 2016 20:34:27 GMT</lastBuildDate><atom:link href="https://patricekrakow.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[How I installed Go on my corporate Windows laptop without administrator rights]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://patricekrakow.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 10 Aug 2016 20:40:44 GMT</lastBuildDate><atom:link href="https://patricekrakow.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[How I installed Go on my corporate Windows laptop without administrator rights]]></title><description><![CDATA[<div class="paragraph">
 <p>I have started by going to <a href="https://golang.org/" class="bare" target="_blank">https://golang.org/</a> ;-)</p>
 </div>
 <div class="paragraph">
@@ -22,7 +22,7 @@
 <p>Download the latest <strong>archive</strong> file for Windows; I have used the <a href="https://storage.googleapis.com/golang/go1.6.3.windows-amd64.zip">go1.6.3.windows-amd64.zip</a> one;</p>
 </li>
 <li>
-<p>Then, I have unzip the content of this archive (which contain the folder <code>\go</code>) to my <code>C:\Users\720330787\AppData\Local\Programs</code>, you just need to find a place on your <code>C:\</code> drive on which you can write, and that is not cleanup periodically by your administrator!</p>
+<p>Then, I have unzip the content of this archive (which contains the folder <code>\go</code>) to my <code>C:\Users\720330787\AppData\Local\Programs</code>, you just need to find a place on your <code>C:\</code> drive on which you can write, and that is not cleanup periodically by your administrator!</p>
 </li>
 </ol>
 </div>]]></description><link>https://patricekrakow.github.io/2016/08/10/How-I-installed-Go-on-my-corporate-Windows-laptop-without-administrator-rights.html</link><guid isPermaLink="true">https://patricekrakow.github.io/2016/08/10/How-I-installed-Go-on-my-corporate-Windows-laptop-without-administrator-rights.html</guid><pubDate>Wed, 10 Aug 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Hello World!]]></title><description><![CDATA[<div class="paragraph">
