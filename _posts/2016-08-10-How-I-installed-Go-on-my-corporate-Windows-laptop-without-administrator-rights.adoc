@@ -11,4 +11,5 @@ Then, on the link:https://forum.golangbridge.org/t/windows-binary-installer-with
 Here is my complete procedure:
 
 . Go to https://golang.org/dl/[^] and *DON'T* download the Microsoft Windows installer package (.msi);
-. Download the latest *archive* file for Windows; I have used link:https://storage.googleapis.com/golang/go1.6.3.windows-amd64.zip[go1.6.3.windows-amd64.zip] one;
+. Download the latest *archive* file for Windows; I have used the link:https://storage.googleapis.com/golang/go1.6.3.windows-amd64.zip[go1.6.3.windows-amd64.zip] one;
+. Then, I have unzip the content of this archive (which contain the folder /go) to my C:\Users\720330787\AppData\Local\Programs, you just need to find a place on your C: drive on which you can write, and that is not cleanup periodically by your administrator!
