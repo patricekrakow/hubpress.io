@@ -2,5 +2,4 @@
 
 I have started going to https://golang.org/ ;-)
 
-Then, 
-
+There, I discovered the link:https://tour.golang.org/welcome/1[_A Tour of Go_] which allows you to start learning the Go language without installing *anything*. Brilliant!
