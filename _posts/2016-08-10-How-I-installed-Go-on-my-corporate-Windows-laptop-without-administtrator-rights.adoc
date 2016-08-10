@@ -1,0 +1,6 @@
+= How I installed Go on my corporate Windows laptop without administtrator rights
+
+I have started going to https://golang.org/ ;-)
+
+Then, 
+
