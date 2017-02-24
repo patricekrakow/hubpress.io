@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Patrice.tech]]></title><description><![CDATA[Patrice.tech]]></description><link>https://patricekrakow.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 24 Feb 2017 13:58:56 GMT</lastBuildDate><atom:link href="https://patricekrakow.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[How I installed Go on my corporate Windows laptop without administrator rights]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Patrice.tech]]></title><description><![CDATA[Patrice.tech]]></description><link>https://patricekrakow.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 24 Feb 2017 14:02:59 GMT</lastBuildDate><atom:link href="https://patricekrakow.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[How I installed Go on my corporate Windows laptop without administrator rights]]></title><description><![CDATA[<div class="paragraph">
 <p><strong>TLDR;</strong> The  master trick when not having administrator rights is to use <code>C:\Users\<i>username</i>\AppData\Local\Programs</code> !!!</p>
 </div>
 <div class="paragraph">
@@ -32,9 +32,9 @@
 <div class="listingblock">
 <div class="content">
 <pre>C:\&gt; set GOROOT=C:\Users\username\AppData\Local\Programs\go
-C:\&gt; set PATH=%PATH%;%GOROOT%\bin`
+C:\&gt; set PATH=%PATH%;%GOROOT%\bin
 C:\&gt; set GOPATH=H:\My Documents\Work\156 - 2016-06-15 - Go\work
-C:\&gt; set PATH=%PATH%;%GOPATH%\bin]</pre>
+C:\&gt; set PATH=%PATH%;%GOPATH%\bin</pre>
 </div>
 </div>
 </li>
