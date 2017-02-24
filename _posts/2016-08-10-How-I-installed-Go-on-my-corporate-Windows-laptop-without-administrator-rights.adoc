@@ -18,9 +18,9 @@ Here is my complete procedure:
 . Finally, you can start a Command Prompt and set the following environement variables:
 [listing]
 C:\> set GOROOT=C:\Users\username\AppData\Local\Programs\go
-C:\> set PATH=%PATH%;%GOROOT%\bin`
+C:\> set PATH=%PATH%;%GOROOT%\bin
 C:\> set GOPATH=H:\My Documents\Work\156 - 2016-06-15 - Go\work
-C:\> set PATH=%PATH%;%GOPATH%\bin]
+C:\> set PATH=%PATH%;%GOPATH%\bin
 
 Now, you can use Go as described in the link:https://golang.org/doc/code.html[documentation^]! Have fun ;-)
 
