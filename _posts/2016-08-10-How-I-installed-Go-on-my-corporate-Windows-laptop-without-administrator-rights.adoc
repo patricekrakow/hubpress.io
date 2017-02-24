@@ -1,6 +1,6 @@
 = How I installed Go on my corporate Windows laptop without administrator rights
 
-*TLDR;* The  master trick when not having administrator rights is to use pass:q[`C:\Users\<i>username</i>\AppData\Local\Programs`], where pass:q[`<i>username</i>`] !!!
+*TLDR;* The  master trick when not having administrator rights is to use pass:q[`C:\Users\<i>username</i>\AppData\Local\Programs`] !!!
 
 I have started by going to link:https://golang.org/[^] ;-)
 
